@@ -19,24 +19,18 @@ To run the MIPS code, choose Load File in SPIM simulator and run.
 # Examples
 I provide three types of example programs, all of which have suffix ".sc".
 ## Error Test
-example for error test is in the folder error_test, to run the error test program, simply type:
-`
-./scc error_test/error_N.sc "Output file name"
-`
+example for error test is in the folder error_test, to run the error test program, simply type:  
+`./scc error_test/error_N.sc "Output file name"`  
 Here N ranges from 1~9 representing the 9 semantic analysis in the report.
 
 ## Optimization Test
-Example for optimization test is in the folder opt_test, to run the optimization test program, simply type:
-`
-./scc opt_test/optim_N.sc "Output file name"
-`
+Example for optimization test is in the folder opt_test, to run the optimization test program, simply type:  
+`./scc opt_test/optim_N.sc "Output file name"`  
 Here N ranges from 1~6 representing the 6 optimizations in the report
 
 ## Sample Test
-Example for sample test is in the folder sample_test, to run the optimization test program, simply type:
-`
-./scc sample_test/"Input file name" "Output file name"
-`
+Example for sample test is in the folder sample_test, to run the optimization test program, simply type:  
+`./scc sample_test/"Input file name" "Output file name"`  
 Here Input file name are:
 | Input File Name | Description |
 | ------ | ------ |
