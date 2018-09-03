@@ -38,8 +38,9 @@ Example for sample test is in the folder sample_test, to run the optimization te
 ./scc sample_test/"Input file name" "Output file name"
 ```
 Here Input file name are:  
+
 | Input File Name | Description |
-| ------ | ------ |
+| --------------- | ----------- |
 | arith_test.sc | For arithmetic calculation. Just run the file and SPIM will give the answer. |
 | test_struct.sc | For structure test. Just run the file and SPIM will give the answer. |
 | hex_oct_test.sc | For hex and oct number test. Just run the file and SPIM will give the answer. |
