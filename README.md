@@ -9,7 +9,7 @@ flex smallc.lex
 gcc -c lex.yy.c
 gcc -o scc smallc.tab.o lex.yy.o -lm
 ```
-??: You cannot use yacc to build the smallc.y because I use some of the unique feature of bison in my project!
+:warning: : You cannot use yacc to build the smallc.y because I use some of the unique feature of bison in my project!
 # Run the Compiler
 To run the smallc compiler, simply type:
 `./scc "Source file name" "Output file name"`
@@ -19,19 +19,25 @@ To run the MIPS code, choose Load File in SPIM simulator and run.
 # Examples
 I provide three types of example programs, all of which have suffix ".sc".
 ## Error Test
-example for error test is in the folder error_test, to run the error test program, simply type:  
-`./scc error_test/error_N.sc "Output file name"`  
+example for error test is in the folder error_test, to run the error test program, simply type:
+```
+./scc error_test/error_N.sc "Output file name"
+```
 Here N ranges from 1~9 representing the 9 semantic analysis in the report.
 
 ## Optimization Test
-Example for optimization test is in the folder opt_test, to run the optimization test program, simply type:  
-`./scc opt_test/optim_N.sc "Output file name"`  
+Example for optimization test is in the folder opt_test, to run the optimization test program, simply type:
+```
+./scc opt_test/optim_N.sc "Output file name"
+```
 Here N ranges from 1~6 representing the 6 optimizations in the report
 
 ## Sample Test
-Example for sample test is in the folder sample_test, to run the optimization test program, simply type:  
-`./scc sample_test/"Input file name" "Output file name"`  
-Here Input file name are:
+Example for sample test is in the folder sample_test, to run the optimization test program, simply type:
+```
+./scc sample_test/"Input file name" "Output file name"
+```
+Here Input file name are:  
 | Input File Name | Description |
 | ------ | ------ |
 | arith_test.sc | For arithmetic calculation. Just run the file and SPIM will give the answer. |
