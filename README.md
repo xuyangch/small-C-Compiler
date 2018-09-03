@@ -38,16 +38,16 @@ Example for sample test is in the folder sample_test, to run the optimization te
 ./scc sample_test/"Input file name" "Output file name"
 ```
 Here Input file name are:  
-Input File Name | Description
------- | ------
-arith_test.sc | For arithmetic calculation. Just run the file and SPIM will give the answer.
-test_struct.sc | For structure test. Just run the file and SPIM will give the answer.
-hex_oct_test.sc | For hex and oct number test. Just run the file and SPIM will give the answer.
-eight_queens.sc | This program calculates the number of solutions of 8 queens problem. Just run the file and SPIM will give the answer.
-fib.sc | This program calculates the n fibonacci number. You can enter n in SPIM and see the result.
-hanoi.sc | This program prints the solution for n hanoi tower. You can enter n in SPIM and see the result.
-loop_test.sc | for loop test. Just run the file and SPIM will give the answer.
-sort.sc | This program sorts an array and print the sorted array. Just run the file and SPIM will give the answer.
+| Input File Name | Description |
+| ------ | ------ |
+| arith_test.sc | For arithmetic calculation. Just run the file and SPIM will give the answer. |
+| test_struct.sc | For structure test. Just run the file and SPIM will give the answer. |
+| hex_oct_test.sc | For hex and oct number test. Just run the file and SPIM will give the answer. |
+| eight_queens.sc | This program calculates the number of solutions of 8 queens problem. Just run the file and SPIM will give the answer. |
+| fib.sc | This program calculates the n fibonacci number. You can enter n in SPIM and see the result. |
+| hanoi.sc | This program prints the solution for n hanoi tower. You can enter n in SPIM and see the result. |
+| loop_test.sc | for loop test. Just run the file and SPIM will give the answer. |
+| sort.sc | This program sorts an array and print the sorted array. Just run the file and SPIM will give the answer. |
 
 # Documents
 A detailed description of the compiler can be found [here](https://github.com/chyacinth/small-C-Compiler/blob/master/project_report.pdf)
