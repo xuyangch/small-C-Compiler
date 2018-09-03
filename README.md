@@ -1,3 +1,5 @@
+# SmallC Compiler
+A compiler that converts a C-like program into MIPS assembly code. It has 6 kinds of optimization technique including arithmetic identities, strength reduction, constant folding, constant propagation, assign elimination, and unreachable function elimination for code generation.
 # Build the Compiler
 To build the project, you need to goto the project directory and type the following in command line:
 ```
@@ -7,7 +9,7 @@ flex smallc.lex
 gcc -c lex.yy.c
 gcc -o scc smallc.tab.o lex.yy.o -lm
 ```
-⚠️: You cannot use yacc to build the smallc.y because I use some of the unique feature of bison in my project!
+??: You cannot use yacc to build the smallc.y because I use some of the unique feature of bison in my project!
 # Run the Compiler
 To run the smallc compiler, simply type:
 `./scc "Source file name" "Output file name"`
